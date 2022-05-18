@@ -5,10 +5,10 @@ import java.util.Scanner;
 			String[] name = new String[5];
 			Scanner scanner = new Scanner(System.in);
 			System.out.print("Enter 5 names:");
-			for ( int i = 0; i < 5; i++) {
+			for ( int i = 0; i < name.length; i++) {
 				name[i] = scanner.nextLine();
 			}
-			for( int i = 0; i < 5; i++) {
+			for( int i = 0; i < name.length; i++) {
 				System.out.println("Hi " + name[i]);
 			}
 		}
